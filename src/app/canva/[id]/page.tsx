@@ -1017,14 +1017,7 @@ const TattooEditor: React.FC = () => {
         <ArrowLeft /> Back
       </Button>
 
-      {/* Save Button */}
-      <button
-        onClick={saveCanva}
-        className="absolute top-5 right-5 z-[100] bg-success-muted text-success-light border border-success-border hover:bg-success/10 hover:text-success-light hover:border-success px-5 py-2.5 text-[10px] uppercase tracking-[0.22em] transition-all duration-300 flex items-center gap-2"
-      >
-        <Save className="w-4 h-4" />
-        Save
-      </button>
+    
 
       {/* ─── SEARCH MODAL ─── */}
       {showSearchModal && (

@@ -709,7 +709,7 @@ export function SetTattoo3DModal({
         <button
           onClick={() => setOpen(true)}
           className={`
-            w-full flex items-center justify-between gap-3
+             flex items-center justify-between gap-3
             px-5 py-4 transition-all duration-300 text-left border
             ${
               tattooData
@@ -718,21 +718,7 @@ export function SetTattoo3DModal({
             }
           `}
         >
-          <div className="flex items-center gap-3">
-            {tattooData ? (
-              <CheckCircle2 className="w-5 h-5 text-gold" />
-            ) : (
-              <MapPin className="w-5 h-5 text-text-dim" />
-            )}
-            <div>
-              <p className="text-sm font-light tracking-wide">
-                {tattooData ? "Tattoo position selected" : "Select tattoo position"}
-              </p>
-            </div>
-          </div>
-          <span className="text-[10px] uppercase tracking-[0.22em] text-gold">
-            {tattooData ? "Edit" : "Select"}
-          </span>
+            3D DEMO
         </button>
       </div>
 
